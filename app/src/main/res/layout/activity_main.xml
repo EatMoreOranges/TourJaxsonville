@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sliding_scrollView">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/slidingLinearLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sliding_title"
+                android:textSize="50dp"
+                android:text="@string/home_title"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="300dp"
+                android:id="@+id/sliding_img"
+                android:src="@drawable/jacksonville"
+                android:textAlignment="center"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sliding_description"
+                android:text="@string/home_description"
+                android:textAlignment="center"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

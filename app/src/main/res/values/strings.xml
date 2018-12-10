@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">Visit Jax</string>
+    <string name="home_title">Come Visit Jacksonville</string>
+    <string name="home_description">Attractions: </string>
+
+    <string name="mosh_title">The MOSH </string>
+    <string name="mosh_description">The Museum of Science and History </string>
+
+    <string name="jags_title">Come Watch the Jaguars</string>
+    <string name="jags_description">Come Watch the Jaguars </string>
+
+    <string name="zoo_title">Explore the Wild Things at the Jacksonville Zoo!!</string>
+    <string name="zoo_description">Explore the Wild Things at the Jacksonville Zoo!! </string>
+
+    <string name="beach_title">Relax at Jacksonville Beach</string>
+    <string name="beach_description">Relax at Jacksonville Beach </string>
+
+    <string name="my_name">Saraah Cooper </string>
+    <string name="my_email">sacoo5@morgan.edu </string>
+    <string name="made_by">Created by</string>
+
+</resources>
